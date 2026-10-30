@@ -251,7 +251,7 @@ these into Alternatives Considered and has no other source for them.]
             initiated by starting the `egm-draft` skill on
             `docs/designs/<feature_name>.md` with the host's command form (for
             example `/egm:egm-draft docs/designs/<feature_name>.md` in Claude
-            Code and agy CLI).
+            Code and agy CLI, or the skill picker in Codex).
     *   **Option 1: `Proceed to egm-draft (Initialize formal design
         document)`**:
         *   Confirm that `concepts_brief.md` is saved in the working directory

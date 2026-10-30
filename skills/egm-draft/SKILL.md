@@ -311,4 +311,5 @@ strictly:
 6.  **Handoff**: Provide a clickable link to the finalized design and recommend
     that the user review it by starting the `egm-review` skill on
     `<DESIGN_PATH>` with the host's command form (for example
-    `/egm:egm-review <DESIGN_PATH>` in Claude Code and agy CLI).
+    `/egm:egm-review <DESIGN_PATH>` in Claude Code and agy CLI, or the skill
+    picker in Codex).

@@ -30,7 +30,8 @@ The EGM skills and personas are packaged as a plugin for **Antigravity**, **Clau
     manifest. This guide shows their commands without a prefix (e.g.
     `/egm-brainstorm`, `/egm-draft`, `/egm-review`); see
     [Try your first design](../README.md#try-your-first-design) for how to
-    invoke them in each host, such as the `/egm:` prefix.
+    invoke them in Antigravity (agy CLI), Claude Code, and Codex, such as the
+    `/egm:` prefix.
 2.  **Personas**: The prompts in `agents/` define isolated system instructions
     for subagents.
 

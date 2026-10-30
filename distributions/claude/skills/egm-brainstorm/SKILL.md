@@ -258,8 +258,8 @@ these into Alternatives Considered and has no other source for them.]
             or artifact directory.
         *   Instruct the user to start the `egm-draft` skill with the host's
             command form (for example `/egm:egm-draft` in Claude Code and agy
-            CLI), noting that it automatically ingests `concepts_brief.md` as
-            its Priority 1 intake source.
+            CLI, or the skill picker in Codex), noting that it automatically
+            ingests `concepts_brief.md` as its Priority 1 intake source.
     *   **Option 2: `Continue refining concepts_brief.md in ideation mode`**:
         *   Return to Step 3 iteration loop to drill into further edge cases or
             update the brief based on user chat input.

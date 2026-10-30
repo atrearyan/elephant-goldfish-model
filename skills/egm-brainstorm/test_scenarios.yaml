@@ -50,7 +50,7 @@ scenarios:
             message: "Readiness gate must not contain (Recommended) prefix."
 
   - scenario_id: "handoff_gate_modal_routing"
-    description: "Asserts single-select modal routing to /egm-draft and RFC publishing upon completing brief."
+    description: "Asserts single-select modal routing to egm-draft and RFC publishing upon completing brief."
     eval_type: "deterministic"
     system_prompt:
       skill_file: "skills/egm-brainstorm/SKILL.md"
@@ -61,8 +61,11 @@ scenarios:
             pattern: "Publish concepts_brief\\.md as RFC for team feedback"
             message: "Handoff gate must offer RFC publication option."
           - type: "required_pattern"
-            pattern: "Proceed to /egm-draft"
-            message: "Handoff gate must offer proceeding to /egm-draft."
+            pattern: "Proceed to egm-draft"
+            message: "Handoff gate must offer proceeding to egm-draft."
+          - type: "forbidden_pattern"
+            pattern: "/egm-draft"
+            message: "Handoff must not tell users to type the unprefixed /egm-draft."
           - type: "forbidden_pattern"
             pattern: "/egm-discuss"
             message: "Handoff gate must not route to deprecated /egm-discuss."

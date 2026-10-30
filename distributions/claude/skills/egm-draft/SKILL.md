@@ -157,7 +157,7 @@ this strict generation order:
         the user in chat for the feature's problem statement, goals, and
         technical context, or suggest that the user start the `egm-brainstorm`
         skill with the host's command form (for example `/egm:egm-brainstorm`
-        in Claude Code and agy CLI).
+        in Claude Code and agy CLI, or the skill picker in Codex).
 3.  **Verify State**: Parse the document. Present a quick confirmation to the
     user to ensure we are starting with the correct context.
 4.  **Consensus**: Get explicit approval to start drafting the document.
